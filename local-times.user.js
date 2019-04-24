@@ -4,7 +4,8 @@
 // @version      1.0
 // @description  add local times to Planner page of Scheduler
 // @author       kristarella
-// @match        https://github.com/kristarella/Schedule-Planner-Local-Times/master/local-times.user.js
+// @match        https://schedule.happy.tools/planner
+// @updateURL    https://github.com/kristarella/Schedule-Planner-Local-Times/master/local-times.user.js
 // @grant        none
 // @require      http://code.jquery.com/jquery-latest.js
 // ==/UserScript==
@@ -26,5 +27,6 @@ function addLocalTime() {
             clearInterval(runTimer);
             return false;
         }
+
     });
 }
